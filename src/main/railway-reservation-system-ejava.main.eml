@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<lib name="Gradle: jakarta.servlet:jakarta.servlet-api:5.0.0" scope="PROVIDED"/>
+	<levels>
+		<level name="Gradle: jakarta.servlet:jakarta.servlet-api:5.0.0" value="project"/>
+	</levels>
+</component>
