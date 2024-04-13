@@ -53,7 +53,12 @@ main
     color: #ffffff;
     text-decoration: none;
   }
-  
+
+  #added_link {
+    color: purple;
+    text-decoration: underline;
+  }
+
   footer {
     display: block;
   	position: fixed;

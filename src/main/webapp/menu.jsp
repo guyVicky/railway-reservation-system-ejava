@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,10 +14,10 @@
     <main>
     	<h2>Welcome! </h2>
         <ul>
-          <li><a href="/booking">Book Ticket</a></li>
-          <li><a href="/cancel">Cancel Ticket</a></li>
-          <li><a href="/list">List Booked Tickets</a></li>
-          <li><a href="/static">Logout</a></li>
+          <li><a href="./booking">Book Ticket</a></li>
+          <li><a href="./cancelling">Cancel Ticket</a></li>
+          <li><a href="./listing">List Booked Tickets</a></li>
+          <li><a href="./">Logout</a></li>
         </ul>
       <p>Welcome to the Indian Railway Catering and Tourism Corporation. Please select an option from the menu to continue.</p>
     </main>

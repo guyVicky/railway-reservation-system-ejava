@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,10 +9,10 @@
   </head>
   <body>
     <header>
-      <h1>IRCTC</h1>
+      <a href="${pageContext.request.contextPath}/menu.jsp"><h1>IRCTC</h1></a>
     </header>
     <main>
-      <form action="/booking" method="POST">
+      <form action="${pageContext.request.contextPath}/booking" method="POST">
         <h2>Booking Details</h2>
         <label for="train_name">Train Name</label>
         <input type="text" id="train_name" name="train_name" required>

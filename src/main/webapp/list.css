@@ -55,4 +55,8 @@ h2 {
     color: #CCC7D2;
     text-align: center;
   } 
-  
+
+  a {
+    color: white;
+    text-decoration: none;
+  }

@@ -21,7 +21,7 @@
 <main>
     <section>
         <h2>Admin Login</h2>
-        <form action="/" method="POST">
+        <form action="${pageContext.request.contextPath}/hello-servlet" method="POST">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username">
             <label for="password">Password:</label>
